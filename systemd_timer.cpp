@@ -46,8 +46,16 @@ std::string format_time(int hour, int minute) {
     tm.tm_min = minute;
 
     char buffer[32];
-    std::strftime(buffer, sizeof buffer, C_("time format", "%-I:%M %p"), &tm);
-    return buffer;
+    const char* pattern = C_("time format", "%I:%M %p");
+    std::strftime(buffer, sizeof buffer, pattern, &tm);
+
+    // %p is empty in locales without AM/PM, which would leave a trailing space.
+    std::string time = buffer;
+    while (!time.empty() && time.back() == ' ') time.pop_back();
+
+    // "3:00 AM" rather than strftime's zero-padded "03:00 AM" (12-hour patterns only).
+    if (std::string(pattern).rfind("%I", 0) == 0 && time.size() > 1 && time[0] == '0') time.erase(0, 1);
+    return time;
 }
 
 std::string join_weekday_names(const std::vector<int>& weekdays, const char* const names[]) {

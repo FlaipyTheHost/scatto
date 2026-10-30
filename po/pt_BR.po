@@ -462,7 +462,7 @@ msgstr "Domingo"
 
 #: systemd_timer.cpp:49
 msgctxt "time format"
-msgid "%-I:%M %p"
+msgid "%I:%M %p"
 msgstr "%H:%M"
 
 #: systemd_timer.cpp:59

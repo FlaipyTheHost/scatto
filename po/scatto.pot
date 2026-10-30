@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: scatto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 17:05-0300\n"
+"POT-Creation-Date: 2026-10-30 17:44-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -459,40 +459,40 @@ msgstr ""
 
 #: systemd_timer.cpp:49
 msgctxt "time format"
-msgid "%-I:%M %p"
+msgid "%I:%M %p"
 msgstr ""
 
-#: systemd_timer.cpp:59
+#: systemd_timer.cpp:67
 msgid " and "
 msgstr ""
 
-#: systemd_timer.cpp:85
+#: systemd_timer.cpp:93
 msgid "every day"
 msgstr ""
 
-#: systemd_timer.cpp:86
+#: systemd_timer.cpp:94
 #, c-format
 msgid "every %s"
 msgstr ""
 
-#: systemd_timer.cpp:87
+#: systemd_timer.cpp:95
 #, c-format
 msgid "Snapshots of %s will be created %s at %s."
 msgstr ""
 
-#: systemd_timer.cpp:98
+#: systemd_timer.cpp:106
 msgid "Select at least one day of the week"
 msgstr ""
 
-#: systemd_timer.cpp:107
+#: systemd_timer.cpp:115
 msgid "Could not create ~/.config/systemd/user"
 msgstr ""
 
-#: systemd_timer.cpp:146
+#: systemd_timer.cpp:154
 msgid "Could not write systemd unit files"
 msgstr ""
 
-#: systemd_timer.cpp:209 systemd_timer.cpp:214
+#: systemd_timer.cpp:217 systemd_timer.cpp:222
 msgid "Custom schedule"
 msgstr ""
 
