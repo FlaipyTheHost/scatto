@@ -9,7 +9,7 @@ add_project_arguments(
   '-DLOCALEDIR="@0@"'.format(get_option('prefix') / get_option('localedir')),
   language: 'cpp')
 
-gtk_dep = dependency('gtk4', version: '>= 4.10')
+gtk_dep = dependency('gtk4', version: '>= 4.12')  # gtk_css_provider_load_from_string
 adw_dep = dependency('libadwaita-1', version: '>= 1.5')  # AdwAboutDialog
 gio_dep = dependency('gio-2.0')
 gio_unix_dep = dependency('gio-unix-2.0')
