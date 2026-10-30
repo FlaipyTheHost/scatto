@@ -1,0 +1,10 @@
+main.cpp
+home_page.cpp
+snaps_page.cpp
+schedule_page.cpp
+schedule_dialog.cpp
+systemd_timer.cpp
+snapper_cli.cpp
+root_helper.cpp
+timeline_periods.hpp
+data/org.gnome.scatto.desktop.in

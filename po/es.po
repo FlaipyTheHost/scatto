@@ -1,0 +1,577 @@
+# Spanish translation for scatto.
+# This file is distributed under the same license as the scatto package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scatto 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/FlaipyTheHost/scatto/issues\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.cpp:40 data/org.gnome.scatto.desktop.in:5
+msgid "Manage Btrfs snapshots and schedules with Snapper"
+msgstr "Gestiona instantáneas y programaciones de Btrfs con Snapper"
+
+#: main.cpp:43
+msgid "translator-credits"
+msgstr ""
+
+#: main.cpp:60
+msgid "Home"
+msgstr "Inicio"
+
+#: main.cpp:62
+msgid "Snaps"
+msgstr "Instantáneas"
+
+#: main.cpp:64
+msgid "Schedule"
+msgstr "Programación"
+
+#: main.cpp:76
+msgid "Refresh (Ctrl+R)"
+msgstr "Actualizar (Ctrl+R)"
+
+#: main.cpp:81
+#, c-format
+msgid "About %s"
+msgstr "Acerca de %s"
+
+#: main.cpp:85
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: main.cpp:137
+msgid "Snapper Manager needs administrator privileges to manage Snapper, and could not get them."
+msgstr "Snapper Manager necesita privilegios de administrador para gestionar Snapper y no pudo obtenerlos."
+
+#: home_page.cpp:17
+#, c-format
+msgid "%.1f%% of size"
+msgstr "%.1f%% del tamaño"
+
+#: home_page.cpp:79
+msgid "Filesystem"
+msgstr "Sistema de archivos"
+
+#: home_page.cpp:91 home_page.cpp:263 home_page.cpp:285
+msgid "Size"
+msgstr "Tamaño"
+
+#: home_page.cpp:92 home_page.cpp:282
+msgid "Allocated"
+msgstr "Asignado"
+
+#: home_page.cpp:93 home_page.cpp:281
+msgid "Used"
+msgstr "Usado"
+
+#: home_page.cpp:94 home_page.cpp:281
+msgid "Free"
+msgstr "Libre"
+
+#: home_page.cpp:216
+msgid "No snapshots on this day"
+msgstr "Ninguna instantánea este día"
+
+#: home_page.cpp:231
+msgid "Subvolumes"
+msgstr "Subvolúmenes"
+
+#: home_page.cpp:232
+msgid "Isolated storage areas for your snapshots"
+msgstr "Áreas de almacenamiento aisladas para tus instantáneas"
+
+#: home_page.cpp:261
+msgid "Could not read filesystem information"
+msgstr "No se pudo leer la información del sistema de archivos"
+
+#: home_page.cpp:283
+msgid "Unallocated"
+msgstr "Sin asignar"
+
+#: home_page.cpp:288
+msgid "Storage Usage Summary for /"
+msgstr "Resumen de uso del almacenamiento de /"
+
+#: home_page.cpp:289
+msgid "Unsupported filesystem: partition is not Btrfs"
+msgstr "Sistema de archivos no compatible: la partición no es Btrfs"
+
+#: home_page.cpp:307 schedule_page.cpp:36
+msgid "Could not list Snapper configurations"
+msgstr "No se pudieron listar las configuraciones de Snapper"
+
+#: home_page.cpp:323 schedule_page.cpp:75
+msgid "No Snapper configurations found"
+msgstr "No se encontraron configuraciones de Snapper"
+
+#: home_page.cpp:324 snaps_page.cpp:119 schedule_page.cpp:76
+msgid "Create one with: sudo snapper -c root create-config /"
+msgstr "Crea una con: sudo snapper -c root create-config /"
+
+#: home_page.cpp:333 snaps_page.cpp:132 schedule_page.cpp:89
+#, c-format
+msgid "Profile: %s"
+msgstr "Perfil: %s"
+
+#: home_page.cpp:340
+msgid "OK"
+msgstr "Aceptar"
+
+#: home_page.cpp:340
+msgid "Snapshots directory (.snapshots) not found"
+msgstr "No se encontró el directorio de instantáneas (.snapshots)"
+
+#: snaps_page.cpp:52
+#, c-format
+msgid "Snapshot #%s"
+msgstr "Instantánea #%s"
+
+#: snaps_page.cpp:78
+msgid "Could not list profiles"
+msgstr "No se pudieron listar los perfiles"
+
+#: snaps_page.cpp:118
+msgid "No profiles found"
+msgstr "No se encontraron perfiles"
+
+#: snaps_page.cpp:150
+msgid "New snapshot"
+msgstr "Nueva instantánea"
+
+#: snaps_page.cpp:172
+msgid "Could not list snapshots"
+msgstr "No se pudieron listar las instantáneas"
+
+#: snaps_page.cpp:217
+msgid "No snapshots yet"
+msgstr "Aún no hay instantáneas"
+
+#: snaps_page.cpp:239
+msgid "Current default snapshot"
+msgstr "Instantánea predeterminada actual"
+
+#: snaps_page.cpp:252
+msgid "Browse Files"
+msgstr "Explorar archivos"
+
+#: snaps_page.cpp:253
+msgid "Restore Snapshot"
+msgstr "Restaurar instantánea"
+
+#: snaps_page.cpp:255
+msgid "Delete Snapshot"
+msgstr "Eliminar instantánea"
+
+#: snaps_page.cpp:273
+#, c-format
+msgid "Creating a new snapshot for %s."
+msgstr "Creando una nueva instantánea de %s."
+
+#: snaps_page.cpp:275
+msgid "New Snapshot"
+msgstr "Nueva instantánea"
+
+#: snaps_page.cpp:279
+msgid "Description, e.g. \"Before update\""
+msgstr "Descripción, p. ej. «Antes de actualizar»"
+
+#: snaps_page.cpp:284 snaps_page.cpp:327 snaps_page.cpp:358 snaps_page.cpp:443 schedule_dialog.cpp:309
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: snaps_page.cpp:285 schedule_dialog.cpp:310
+msgid "Create"
+msgstr "Crear"
+
+#: snaps_page.cpp:313
+msgid "Snapshot created"
+msgstr "Instantánea creada"
+
+#: snaps_page.cpp:321
+#, c-format
+msgid "Restore %s?"
+msgstr "¿Restaurar %s?"
+
+#: snaps_page.cpp:323
+#, c-format
+msgid "This overwrites the current content of %s with the content of snapshot #%s. This cannot be undone."
+msgstr "Esto sobrescribe el contenido actual de %s con el contenido de la instantánea #%s. No se puede deshacer."
+
+#: snaps_page.cpp:328
+msgid "Restore"
+msgstr "Restaurar"
+
+#: snaps_page.cpp:348
+#, c-format
+msgid "Snapshot #%s restored"
+msgstr "Instantánea #%s restaurada"
+
+#: snaps_page.cpp:354
+#, c-format
+msgid "Delete %s?"
+msgstr "¿Eliminar %s?"
+
+#: snaps_page.cpp:355
+#, c-format
+msgid "Snapshot #%s will be permanently deleted."
+msgstr "La instantánea #%s se eliminará de forma permanente."
+
+#: snaps_page.cpp:359
+msgid "Delete"
+msgstr "Eliminar"
+
+#: snaps_page.cpp:379
+#, c-format
+msgid "Snapshot #%s deleted"
+msgstr "Instantánea #%s eliminada"
+
+#: snaps_page.cpp:389
+msgid "Snapper command failed"
+msgstr "El comando de Snapper falló"
+
+#: snaps_page.cpp:410
+#, c-format
+msgid "Snapshot folder not found: %s"
+msgstr "No se encontró la carpeta de la instantánea: %s"
+
+#: snaps_page.cpp:421
+msgid "Could not build a path for that snapshot"
+msgstr "No se pudo construir la ruta de esa instantánea"
+
+#: snaps_page.cpp:430
+msgid "Could not open a file manager for that snapshot"
+msgstr "No se pudo abrir un gestor de archivos para esa instantánea"
+
+#: snaps_page.cpp:438
+#, c-format
+msgid "Snapshots of %s can only be read by root. Allow \"%s\" to browse them? This adds the user to ALLOW_USERS and enables SYNC_ACL in the Snapper configuration \"%s\"."
+msgstr "Las instantáneas de %s solo puede leerlas root. ¿Permitir que «%s» las explore? Esto añade al usuario a ALLOW_USERS y activa SYNC_ACL en la configuración «%s» de Snapper."
+
+#: snaps_page.cpp:442
+msgid "Allow Access to Snapshots?"
+msgstr "¿Permitir el acceso a las instantáneas?"
+
+#: snaps_page.cpp:444
+msgid "Allow Access"
+msgstr "Permitir acceso"
+
+#: snaps_page.cpp:473
+msgid "Could not read the Snapper configuration"
+msgstr "No se pudo leer la configuración de Snapper"
+
+#: snaps_page.cpp:498
+msgid "Could not grant access"
+msgstr "No se pudo conceder el acceso"
+
+#: schedule_page.cpp:104
+msgid "New schedule"
+msgstr "Nueva programación"
+
+#: schedule_page.cpp:125
+#, c-format
+msgid "Could not read schedule for %s: %s"
+msgstr "No se pudo leer la programación de %s: %s"
+
+#: schedule_page.cpp:158
+msgid "No active schedule"
+msgstr "Ninguna programación activa"
+
+#: schedule_page.cpp:190 schedule_page.cpp:231
+#, c-format
+msgid "Could not remove schedule: %s"
+msgstr "No se pudo eliminar la programación: %s"
+
+#: schedule_page.cpp:193 schedule_page.cpp:234
+msgid "Schedule removed"
+msgstr "Programación eliminada"
+
+#: schedule_page.cpp:203 schedule_page.cpp:242
+msgid "Remove this schedule"
+msgstr "Eliminar esta programación"
+
+#: schedule_page.cpp:216 schedule_dialog.cpp:122
+msgid "Custom"
+msgstr "Personalizada"
+
+#: schedule_dialog.cpp:78
+msgid "Select at least one day of the week."
+msgstr "Selecciona al menos un día de la semana."
+
+#: schedule_dialog.cpp:100
+msgid "How often?"
+msgstr "¿Con qué frecuencia?"
+
+#: schedule_dialog.cpp:101
+msgid "Choose when new snapshots are taken."
+msgstr "Elige cuándo se crean las nuevas instantáneas."
+
+#: schedule_dialog.cpp:104
+msgid "A snapshot every hour"
+msgstr "Una instantánea cada hora"
+
+#: schedule_dialog.cpp:105
+msgid "A snapshot every day"
+msgstr "Una instantánea cada día"
+
+#: schedule_dialog.cpp:106
+msgid "A snapshot every week"
+msgstr "Una instantánea cada semana"
+
+#: schedule_dialog.cpp:107
+msgid "A snapshot every month"
+msgstr "Una instantánea cada mes"
+
+#: schedule_dialog.cpp:108
+msgid "A snapshot every year"
+msgstr "Una instantánea cada año"
+
+#: schedule_dialog.cpp:109
+msgid "Pick the weekdays and the time of day"
+msgstr "Elige los días de la semana y la hora"
+
+#: schedule_dialog.cpp:158
+msgid "Retention"
+msgstr "Retención"
+
+#: schedule_dialog.cpp:160
+msgid "Requires Snapper's timeline timer (snapper-timeline.timer) to be enabled to actually run."
+msgstr "Requiere que el temporizador de línea de tiempo de Snapper (snapper-timeline.timer) esté activado para ejecutarse."
+
+#: schedule_dialog.cpp:163
+msgid "Snapshots to keep"
+msgstr "Instantáneas que conservar"
+
+#: schedule_dialog.cpp:177
+msgid "Days"
+msgstr "Días"
+
+#: schedule_dialog.cpp:200
+msgid "Time"
+msgstr "Hora"
+
+#: schedule_dialog.cpp:203
+msgid "Time of day"
+msgstr "Hora del día"
+
+#: schedule_dialog.cpp:246
+msgid "Summary"
+msgstr "Resumen"
+
+#: schedule_dialog.cpp:256
+msgid "Schedule created"
+msgstr "Programación creada"
+
+#: schedule_dialog.cpp:259
+msgid "Could not create schedule"
+msgstr "No se pudo crear la programación"
+
+#: schedule_dialog.cpp:326
+#, c-format
+msgid "New schedule for %s"
+msgstr "Nueva programación para %s"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Mon"
+msgstr "lun"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Tue"
+msgstr "mar"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Wed"
+msgstr "mié"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Thu"
+msgstr "jue"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Fri"
+msgstr "vie"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Sat"
+msgstr "sáb"
+
+#: systemd_timer.cpp:19
+msgctxt "weekday abbreviation"
+msgid "Sun"
+msgstr "dom"
+
+#: systemd_timer.cpp:20
+msgid "Monday"
+msgstr "lunes"
+
+#: systemd_timer.cpp:20
+msgid "Tuesday"
+msgstr "martes"
+
+#: systemd_timer.cpp:20
+msgid "Wednesday"
+msgstr "miércoles"
+
+#: systemd_timer.cpp:20
+msgid "Thursday"
+msgstr "jueves"
+
+#: systemd_timer.cpp:21
+msgid "Friday"
+msgstr "viernes"
+
+#: systemd_timer.cpp:21
+msgid "Saturday"
+msgstr "sábado"
+
+#: systemd_timer.cpp:21
+msgid "Sunday"
+msgstr "domingo"
+
+#: systemd_timer.cpp:49
+msgctxt "time format"
+msgid "%-I:%M %p"
+msgstr "%H:%M"
+
+#: systemd_timer.cpp:59
+msgid " and "
+msgstr " y "
+
+#: systemd_timer.cpp:85
+msgid "every day"
+msgstr "todos los días"
+
+#: systemd_timer.cpp:86
+#, c-format
+msgid "every %s"
+msgstr "los días: %s"
+
+#: systemd_timer.cpp:87
+#, c-format
+msgid "Snapshots of %s will be created %s at %s."
+msgstr "Se crearán instantáneas de %s %s a las %s."
+
+#: systemd_timer.cpp:98
+msgid "Select at least one day of the week"
+msgstr "Selecciona al menos un día de la semana"
+
+#: systemd_timer.cpp:107
+msgid "Could not create ~/.config/systemd/user"
+msgstr "No se pudo crear ~/.config/systemd/user"
+
+#: systemd_timer.cpp:146
+msgid "Could not write systemd unit files"
+msgstr "No se pudieron escribir los archivos de unidad de systemd"
+
+#: systemd_timer.cpp:209 systemd_timer.cpp:214
+msgid "Custom schedule"
+msgstr "Programación personalizada"
+
+#: snapper_cli.cpp:26
+msgid "Could not run snapper"
+msgstr "No se pudo ejecutar snapper"
+
+#: snapper_cli.cpp:27
+msgid "snapper exited with an error"
+msgstr "snapper terminó con un error"
+
+#: snapper_cli.cpp:119
+msgid "Could not run command"
+msgstr "No se pudo ejecutar el comando"
+
+#: root_helper.cpp:60
+msgid "Lost connection to the privileged helper process"
+msgstr "Se perdió la conexión con el proceso auxiliar privilegiado"
+
+#: root_helper.cpp:118
+msgid "Could not find the snapper-manager-helper program next to the main executable."
+msgstr "No se encontró el programa snapper-manager-helper junto al ejecutable principal."
+
+#: root_helper.cpp:130
+msgid "Could not run pkexec."
+msgstr "No se pudo ejecutar pkexec."
+
+#: root_helper.cpp:147
+msgid "Administrator authentication was not completed"
+msgstr "No se completó la autenticación de administrador"
+
+#: root_helper.cpp:168
+msgid "The privileged helper is not running."
+msgstr "El proceso auxiliar privilegiado no se está ejecutando."
+
+#: timeline_periods.hpp:21
+msgid "Hourly"
+msgstr "Cada hora"
+
+#: timeline_periods.hpp:22
+msgid "Daily"
+msgstr "Diaria"
+
+#: timeline_periods.hpp:23
+msgid "Weekly"
+msgstr "Semanal"
+
+#: timeline_periods.hpp:24
+msgid "Monthly"
+msgstr "Mensual"
+
+#: timeline_periods.hpp:25
+msgid "Yearly"
+msgstr "Anual"
+
+#: timeline_periods.hpp:33
+#, c-format
+msgid "Keeps the %d most recent hourly snapshot."
+msgid_plural "Keeps the %d most recent hourly snapshots."
+msgstr[0] "Conserva la última instantánea por hora."
+msgstr[1] "Conserva las %d últimas instantáneas por hora."
+
+#: timeline_periods.hpp:36
+#, c-format
+msgid "Keeps the %d most recent daily snapshot."
+msgid_plural "Keeps the %d most recent daily snapshots."
+msgstr[0] "Conserva la última instantánea diaria."
+msgstr[1] "Conserva las %d últimas instantáneas diarias."
+
+#: timeline_periods.hpp:39
+#, c-format
+msgid "Keeps the %d most recent weekly snapshot."
+msgid_plural "Keeps the %d most recent weekly snapshots."
+msgstr[0] "Conserva la última instantánea semanal."
+msgstr[1] "Conserva las %d últimas instantáneas semanales."
+
+#: timeline_periods.hpp:42
+#, c-format
+msgid "Keeps the %d most recent monthly snapshot."
+msgid_plural "Keeps the %d most recent monthly snapshots."
+msgstr[0] "Conserva la última instantánea mensual."
+msgstr[1] "Conserva las %d últimas instantáneas mensuales."
+
+#: timeline_periods.hpp:44
+#, c-format
+msgid "Keeps the %d most recent yearly snapshot."
+msgid_plural "Keeps the %d most recent yearly snapshots."
+msgstr[0] "Conserva la última instantánea anual."
+msgstr[1] "Conserva las %d últimas instantáneas anuales."
+
+#: data/org.gnome.scatto.desktop.in:3
+msgid "Scatto"
+msgstr ""
+
+#: data/org.gnome.scatto.desktop.in:4
+msgid "Snapper Manager"
+msgstr ""
+
+#: data/org.gnome.scatto.desktop.in:10
+msgid "snapper;btrfs;snapshot;backup;"
+msgstr "snapper;btrfs;instantánea;snapshot;copia de seguridad;respaldo;"

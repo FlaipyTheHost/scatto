@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Scatto
+GenericName=Snapper Manager
+Comment=Manage Btrfs snapshots and schedules with Snapper
+Exec=snapper-manager
+Icon=org.gnome.scatto
+Terminal=false
+Categories=System;Utility;GTK;
+Keywords=snapper;btrfs;snapshot;backup;
+StartupNotify=true
+StartupWMClass=org.gnome.scatto

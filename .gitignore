@@ -1,0 +1,12 @@
+# build output
+build/
+
+# generated
+*.o
+*.mo
+
+# editors
+.idea/
+.vscode/
+cmake-build-*/
+*~

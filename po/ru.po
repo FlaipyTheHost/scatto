@@ -1,0 +1,582 @@
+# Russian translation for scatto.
+# This file is distributed under the same license as the scatto package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scatto 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/FlaipyTheHost/scatto/issues\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: main.cpp:40 data/org.gnome.scatto.desktop.in:5
+msgid "Manage Btrfs snapshots and schedules with Snapper"
+msgstr "Управление снимками и расписаниями Btrfs с помощью Snapper"
+
+#: main.cpp:43
+msgid "translator-credits"
+msgstr ""
+
+#: main.cpp:60
+msgid "Home"
+msgstr "Главная"
+
+#: main.cpp:62
+msgid "Snaps"
+msgstr "Снимки"
+
+#: main.cpp:64
+msgid "Schedule"
+msgstr "Расписание"
+
+#: main.cpp:76
+msgid "Refresh (Ctrl+R)"
+msgstr "Обновить (Ctrl+R)"
+
+#: main.cpp:81
+#, c-format
+msgid "About %s"
+msgstr "О программе %s"
+
+#: main.cpp:85
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: main.cpp:137
+msgid "Snapper Manager needs administrator privileges to manage Snapper, and could not get them."
+msgstr "Snapper Manager нужны права администратора для управления Snapper, но получить их не удалось."
+
+#: home_page.cpp:17
+#, c-format
+msgid "%.1f%% of size"
+msgstr "%.1f%% от размера"
+
+#: home_page.cpp:79
+msgid "Filesystem"
+msgstr "Файловая система"
+
+#: home_page.cpp:91 home_page.cpp:263 home_page.cpp:285
+msgid "Size"
+msgstr "Размер"
+
+#: home_page.cpp:92 home_page.cpp:282
+msgid "Allocated"
+msgstr "Выделено"
+
+#: home_page.cpp:93 home_page.cpp:281
+msgid "Used"
+msgstr "Занято"
+
+#: home_page.cpp:94 home_page.cpp:281
+msgid "Free"
+msgstr "Свободно"
+
+#: home_page.cpp:216
+msgid "No snapshots on this day"
+msgstr "В этот день нет снимков"
+
+#: home_page.cpp:231
+msgid "Subvolumes"
+msgstr "Подтома"
+
+#: home_page.cpp:232
+msgid "Isolated storage areas for your snapshots"
+msgstr "Изолированные области хранения для ваших снимков"
+
+#: home_page.cpp:261
+msgid "Could not read filesystem information"
+msgstr "Не удалось прочитать сведения о файловой системе"
+
+#: home_page.cpp:283
+msgid "Unallocated"
+msgstr "Не выделено"
+
+#: home_page.cpp:288
+msgid "Storage Usage Summary for /"
+msgstr "Сводка использования хранилища для /"
+
+#: home_page.cpp:289
+msgid "Unsupported filesystem: partition is not Btrfs"
+msgstr "Неподдерживаемая файловая система: раздел не Btrfs"
+
+#: home_page.cpp:307 schedule_page.cpp:36
+msgid "Could not list Snapper configurations"
+msgstr "Не удалось получить список конфигураций Snapper"
+
+#: home_page.cpp:323 schedule_page.cpp:75
+msgid "No Snapper configurations found"
+msgstr "Конфигурации Snapper не найдены"
+
+#: home_page.cpp:324 snaps_page.cpp:119 schedule_page.cpp:76
+msgid "Create one with: sudo snapper -c root create-config /"
+msgstr "Создайте её командой: sudo snapper -c root create-config /"
+
+#: home_page.cpp:333 snaps_page.cpp:132 schedule_page.cpp:89
+#, c-format
+msgid "Profile: %s"
+msgstr "Профиль: %s"
+
+#: home_page.cpp:340
+msgid "OK"
+msgstr "ОК"
+
+#: home_page.cpp:340
+msgid "Snapshots directory (.snapshots) not found"
+msgstr "Каталог снимков (.snapshots) не найден"
+
+#: snaps_page.cpp:52
+#, c-format
+msgid "Snapshot #%s"
+msgstr "Снимок №%s"
+
+#: snaps_page.cpp:78
+msgid "Could not list profiles"
+msgstr "Не удалось получить список профилей"
+
+#: snaps_page.cpp:118
+msgid "No profiles found"
+msgstr "Профили не найдены"
+
+#: snaps_page.cpp:150
+msgid "New snapshot"
+msgstr "Новый снимок"
+
+#: snaps_page.cpp:172
+msgid "Could not list snapshots"
+msgstr "Не удалось получить список снимков"
+
+#: snaps_page.cpp:217
+msgid "No snapshots yet"
+msgstr "Снимков пока нет"
+
+#: snaps_page.cpp:239
+msgid "Current default snapshot"
+msgstr "Текущий снимок по умолчанию"
+
+#: snaps_page.cpp:252
+msgid "Browse Files"
+msgstr "Просмотреть файлы"
+
+#: snaps_page.cpp:253
+msgid "Restore Snapshot"
+msgstr "Восстановить снимок"
+
+#: snaps_page.cpp:255
+msgid "Delete Snapshot"
+msgstr "Удалить снимок"
+
+#: snaps_page.cpp:273
+#, c-format
+msgid "Creating a new snapshot for %s."
+msgstr "Создание нового снимка для %s."
+
+#: snaps_page.cpp:275
+msgid "New Snapshot"
+msgstr "Новый снимок"
+
+#: snaps_page.cpp:279
+msgid "Description, e.g. \"Before update\""
+msgstr "Описание, например «Перед обновлением»"
+
+#: snaps_page.cpp:284 snaps_page.cpp:327 snaps_page.cpp:358 snaps_page.cpp:443 schedule_dialog.cpp:309
+msgid "Cancel"
+msgstr "Отмена"
+
+#: snaps_page.cpp:285 schedule_dialog.cpp:310
+msgid "Create"
+msgstr "Создать"
+
+#: snaps_page.cpp:313
+msgid "Snapshot created"
+msgstr "Снимок создан"
+
+#: snaps_page.cpp:321
+#, c-format
+msgid "Restore %s?"
+msgstr "Восстановить %s?"
+
+#: snaps_page.cpp:323
+#, c-format
+msgid "This overwrites the current content of %s with the content of snapshot #%s. This cannot be undone."
+msgstr "Текущее содержимое %1$s будет заменено содержимым снимка №%2$s. Это действие нельзя отменить."
+
+#: snaps_page.cpp:328
+msgid "Restore"
+msgstr "Восстановить"
+
+#: snaps_page.cpp:348
+#, c-format
+msgid "Snapshot #%s restored"
+msgstr "Снимок №%s восстановлен"
+
+#: snaps_page.cpp:354
+#, c-format
+msgid "Delete %s?"
+msgstr "Удалить %s?"
+
+#: snaps_page.cpp:355
+#, c-format
+msgid "Snapshot #%s will be permanently deleted."
+msgstr "Снимок №%s будет удалён безвозвратно."
+
+#: snaps_page.cpp:359
+msgid "Delete"
+msgstr "Удалить"
+
+#: snaps_page.cpp:379
+#, c-format
+msgid "Snapshot #%s deleted"
+msgstr "Снимок №%s удалён"
+
+#: snaps_page.cpp:389
+msgid "Snapper command failed"
+msgstr "Команда Snapper завершилась с ошибкой"
+
+#: snaps_page.cpp:410
+#, c-format
+msgid "Snapshot folder not found: %s"
+msgstr "Папка снимка не найдена: %s"
+
+#: snaps_page.cpp:421
+msgid "Could not build a path for that snapshot"
+msgstr "Не удалось построить путь к этому снимку"
+
+#: snaps_page.cpp:430
+msgid "Could not open a file manager for that snapshot"
+msgstr "Не удалось открыть файловый менеджер для этого снимка"
+
+#: snaps_page.cpp:438
+#, c-format
+msgid "Snapshots of %s can only be read by root. Allow \"%s\" to browse them? This adds the user to ALLOW_USERS and enables SYNC_ACL in the Snapper configuration \"%s\"."
+msgstr "Снимки %1$s может читать только root. Разрешить «%2$s» просматривать их? Пользователь будет добавлен в ALLOW_USERS, а в конфигурации Snapper «%3$s» включится SYNC_ACL."
+
+#: snaps_page.cpp:442
+msgid "Allow Access to Snapshots?"
+msgstr "Разрешить доступ к снимкам?"
+
+#: snaps_page.cpp:444
+msgid "Allow Access"
+msgstr "Разрешить доступ"
+
+#: snaps_page.cpp:473
+msgid "Could not read the Snapper configuration"
+msgstr "Не удалось прочитать конфигурацию Snapper"
+
+#: snaps_page.cpp:498
+msgid "Could not grant access"
+msgstr "Не удалось предоставить доступ"
+
+#: schedule_page.cpp:104
+msgid "New schedule"
+msgstr "Новое расписание"
+
+#: schedule_page.cpp:125
+#, c-format
+msgid "Could not read schedule for %s: %s"
+msgstr "Не удалось прочитать расписание для %s: %s"
+
+#: schedule_page.cpp:158
+msgid "No active schedule"
+msgstr "Нет активных расписаний"
+
+#: schedule_page.cpp:190 schedule_page.cpp:231
+#, c-format
+msgid "Could not remove schedule: %s"
+msgstr "Не удалось удалить расписание: %s"
+
+#: schedule_page.cpp:193 schedule_page.cpp:234
+msgid "Schedule removed"
+msgstr "Расписание удалено"
+
+#: schedule_page.cpp:203 schedule_page.cpp:242
+msgid "Remove this schedule"
+msgstr "Удалить это расписание"
+
+#: schedule_page.cpp:216 schedule_dialog.cpp:122
+msgid "Custom"
+msgstr "Особое"
+
+#: schedule_dialog.cpp:78
+msgid "Select at least one day of the week."
+msgstr "Выберите хотя бы один день недели."
+
+#: schedule_dialog.cpp:100
+msgid "How often?"
+msgstr "Как часто?"
+
+#: schedule_dialog.cpp:101
+msgid "Choose when new snapshots are taken."
+msgstr "Выберите, когда создавать новые снимки."
+
+#: schedule_dialog.cpp:104
+msgid "A snapshot every hour"
+msgstr "Снимок каждый час"
+
+#: schedule_dialog.cpp:105
+msgid "A snapshot every day"
+msgstr "Снимок каждый день"
+
+#: schedule_dialog.cpp:106
+msgid "A snapshot every week"
+msgstr "Снимок каждую неделю"
+
+#: schedule_dialog.cpp:107
+msgid "A snapshot every month"
+msgstr "Снимок каждый месяц"
+
+#: schedule_dialog.cpp:108
+msgid "A snapshot every year"
+msgstr "Снимок каждый год"
+
+#: schedule_dialog.cpp:109
+msgid "Pick the weekdays and the time of day"
+msgstr "Выберите дни недели и время"
+
+#: schedule_dialog.cpp:158
+msgid "Retention"
+msgstr "Хранение"
+
+#: schedule_dialog.cpp:160
+msgid "Requires Snapper's timeline timer (snapper-timeline.timer) to be enabled to actually run."
+msgstr "Для работы должен быть включён таймер временной шкалы Snapper (snapper-timeline.timer)."
+
+#: schedule_dialog.cpp:163
+msgid "Snapshots to keep"
+msgstr "Сколько снимков хранить"
+
+#: schedule_dialog.cpp:177
+msgid "Days"
+msgstr "Дни"
+
+#: schedule_dialog.cpp:200
+msgid "Time"
+msgstr "Время"
+
+#: schedule_dialog.cpp:203
+msgid "Time of day"
+msgstr "Время суток"
+
+#: schedule_dialog.cpp:246
+msgid "Summary"
+msgstr "Сводка"
+
+#: schedule_dialog.cpp:256
+msgid "Schedule created"
+msgstr "Расписание создано"
+
+#: schedule_dialog.cpp:259
+msgid "Could not create schedule"
+msgstr "Не удалось создать расписание"
+
+#: schedule_dialog.cpp:326
+#, c-format
+msgid "New schedule for %s"
+msgstr "Новое расписание для %s"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Mon"
+msgstr "пн"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Tue"
+msgstr "вт"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Wed"
+msgstr "ср"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Thu"
+msgstr "чт"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Fri"
+msgstr "пт"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Sat"
+msgstr "сб"
+
+#: systemd_timer.cpp:19
+msgctxt "weekday abbreviation"
+msgid "Sun"
+msgstr "вс"
+
+#: systemd_timer.cpp:20
+msgid "Monday"
+msgstr "понедельник"
+
+#: systemd_timer.cpp:20
+msgid "Tuesday"
+msgstr "вторник"
+
+#: systemd_timer.cpp:20
+msgid "Wednesday"
+msgstr "среда"
+
+#: systemd_timer.cpp:20
+msgid "Thursday"
+msgstr "четверг"
+
+#: systemd_timer.cpp:21
+msgid "Friday"
+msgstr "пятница"
+
+#: systemd_timer.cpp:21
+msgid "Saturday"
+msgstr "суббота"
+
+#: systemd_timer.cpp:21
+msgid "Sunday"
+msgstr "воскресенье"
+
+#: systemd_timer.cpp:49
+msgctxt "time format"
+msgid "%-I:%M %p"
+msgstr "%H:%M"
+
+#: systemd_timer.cpp:59
+msgid " and "
+msgstr " и "
+
+#: systemd_timer.cpp:85
+msgid "every day"
+msgstr "каждый день"
+
+#: systemd_timer.cpp:86
+#, c-format
+msgid "every %s"
+msgstr "по дням: %s"
+
+#: systemd_timer.cpp:87
+#, c-format
+msgid "Snapshots of %s will be created %s at %s."
+msgstr "Снимки %1$s будут создаваться %2$s в %3$s."
+
+#: systemd_timer.cpp:98
+msgid "Select at least one day of the week"
+msgstr "Выберите хотя бы один день недели"
+
+#: systemd_timer.cpp:107
+msgid "Could not create ~/.config/systemd/user"
+msgstr "Не удалось создать ~/.config/systemd/user"
+
+#: systemd_timer.cpp:146
+msgid "Could not write systemd unit files"
+msgstr "Не удалось записать файлы юнитов systemd"
+
+#: systemd_timer.cpp:209 systemd_timer.cpp:214
+msgid "Custom schedule"
+msgstr "Особое расписание"
+
+#: snapper_cli.cpp:26
+msgid "Could not run snapper"
+msgstr "Не удалось запустить snapper"
+
+#: snapper_cli.cpp:27
+msgid "snapper exited with an error"
+msgstr "snapper завершился с ошибкой"
+
+#: snapper_cli.cpp:119
+msgid "Could not run command"
+msgstr "Не удалось выполнить команду"
+
+#: root_helper.cpp:60
+msgid "Lost connection to the privileged helper process"
+msgstr "Потеряно соединение с привилегированным вспомогательным процессом"
+
+#: root_helper.cpp:118
+msgid "Could not find the snapper-manager-helper program next to the main executable."
+msgstr "Не удалось найти программу snapper-manager-helper рядом с основным исполняемым файлом."
+
+#: root_helper.cpp:130
+msgid "Could not run pkexec."
+msgstr "Не удалось запустить pkexec."
+
+#: root_helper.cpp:147
+msgid "Administrator authentication was not completed"
+msgstr "Аутентификация администратора не завершена"
+
+#: root_helper.cpp:168
+msgid "The privileged helper is not running."
+msgstr "Привилегированный вспомогательный процесс не запущен."
+
+#: timeline_periods.hpp:21
+msgid "Hourly"
+msgstr "Ежечасно"
+
+#: timeline_periods.hpp:22
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: timeline_periods.hpp:23
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: timeline_periods.hpp:24
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: timeline_periods.hpp:25
+msgid "Yearly"
+msgstr "Ежегодно"
+
+#: timeline_periods.hpp:33
+#, c-format
+msgid "Keeps the %d most recent hourly snapshot."
+msgid_plural "Keeps the %d most recent hourly snapshots."
+msgstr[0] "Хранит %d последний ежечасный снимок."
+msgstr[1] "Хранит %d последних ежечасных снимка."
+msgstr[2] "Хранит %d последних ежечасных снимков."
+
+#: timeline_periods.hpp:36
+#, c-format
+msgid "Keeps the %d most recent daily snapshot."
+msgid_plural "Keeps the %d most recent daily snapshots."
+msgstr[0] "Хранит %d последний ежедневный снимок."
+msgstr[1] "Хранит %d последних ежедневных снимка."
+msgstr[2] "Хранит %d последних ежедневных снимков."
+
+#: timeline_periods.hpp:39
+#, c-format
+msgid "Keeps the %d most recent weekly snapshot."
+msgid_plural "Keeps the %d most recent weekly snapshots."
+msgstr[0] "Хранит %d последний еженедельный снимок."
+msgstr[1] "Хранит %d последних еженедельных снимка."
+msgstr[2] "Хранит %d последних еженедельных снимков."
+
+#: timeline_periods.hpp:42
+#, c-format
+msgid "Keeps the %d most recent monthly snapshot."
+msgid_plural "Keeps the %d most recent monthly snapshots."
+msgstr[0] "Хранит %d последний ежемесячный снимок."
+msgstr[1] "Хранит %d последних ежемесячных снимка."
+msgstr[2] "Хранит %d последних ежемесячных снимков."
+
+#: timeline_periods.hpp:44
+#, c-format
+msgid "Keeps the %d most recent yearly snapshot."
+msgid_plural "Keeps the %d most recent yearly snapshots."
+msgstr[0] "Хранит %d последний ежегодный снимок."
+msgstr[1] "Хранит %d последних ежегодных снимка."
+msgstr[2] "Хранит %d последних ежегодных снимков."
+
+#: data/org.gnome.scatto.desktop.in:3
+msgid "Scatto"
+msgstr ""
+
+#: data/org.gnome.scatto.desktop.in:4
+msgid "Snapper Manager"
+msgstr ""
+
+#: data/org.gnome.scatto.desktop.in:10
+msgid "snapper;btrfs;snapshot;backup;"
+msgstr "snapper;btrfs;снимок;snapshot;резервная копия;бэкап;"

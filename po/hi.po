@@ -1,0 +1,577 @@
+# Hindi translation for scatto.
+# This file is distributed under the same license as the scatto package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scatto 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/FlaipyTheHost/scatto/issues\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.cpp:40 data/org.gnome.scatto.desktop.in:5
+msgid "Manage Btrfs snapshots and schedules with Snapper"
+msgstr "Snapper के साथ Btrfs स्नैपशॉट और शेड्यूल प्रबंधित करें"
+
+#: main.cpp:43
+msgid "translator-credits"
+msgstr ""
+
+#: main.cpp:60
+msgid "Home"
+msgstr "होम"
+
+#: main.cpp:62
+msgid "Snaps"
+msgstr "स्नैपशॉट"
+
+#: main.cpp:64
+msgid "Schedule"
+msgstr "शेड्यूल"
+
+#: main.cpp:76
+msgid "Refresh (Ctrl+R)"
+msgstr "रीफ़्रेश करें (Ctrl+R)"
+
+#: main.cpp:81
+#, c-format
+msgid "About %s"
+msgstr "%s के बारे में"
+
+#: main.cpp:85
+msgid "Main Menu"
+msgstr "मुख्य मेनू"
+
+#: main.cpp:137
+msgid "Snapper Manager needs administrator privileges to manage Snapper, and could not get them."
+msgstr "Snapper Manager को Snapper प्रबंधित करने के लिए व्यवस्थापक अधिकार चाहिए, पर वे प्राप्त नहीं हो सके।"
+
+#: home_page.cpp:17
+#, c-format
+msgid "%.1f%% of size"
+msgstr "आकार का %.1f%%"
+
+#: home_page.cpp:79
+msgid "Filesystem"
+msgstr "फ़ाइल सिस्टम"
+
+#: home_page.cpp:91 home_page.cpp:263 home_page.cpp:285
+msgid "Size"
+msgstr "आकार"
+
+#: home_page.cpp:92 home_page.cpp:282
+msgid "Allocated"
+msgstr "आवंटित"
+
+#: home_page.cpp:93 home_page.cpp:281
+msgid "Used"
+msgstr "उपयोग किया गया"
+
+#: home_page.cpp:94 home_page.cpp:281
+msgid "Free"
+msgstr "खाली"
+
+#: home_page.cpp:216
+msgid "No snapshots on this day"
+msgstr "इस दिन कोई स्नैपशॉट नहीं"
+
+#: home_page.cpp:231
+msgid "Subvolumes"
+msgstr "सबवॉल्यूम"
+
+#: home_page.cpp:232
+msgid "Isolated storage areas for your snapshots"
+msgstr "आपके स्नैपशॉट के लिए अलग संग्रहण क्षेत्र"
+
+#: home_page.cpp:261
+msgid "Could not read filesystem information"
+msgstr "फ़ाइल सिस्टम की जानकारी नहीं पढ़ी जा सकी"
+
+#: home_page.cpp:283
+msgid "Unallocated"
+msgstr "अनावंटित"
+
+#: home_page.cpp:288
+msgid "Storage Usage Summary for /"
+msgstr "/ के संग्रहण उपयोग का सारांश"
+
+#: home_page.cpp:289
+msgid "Unsupported filesystem: partition is not Btrfs"
+msgstr "असमर्थित फ़ाइल सिस्टम: पार्टिशन Btrfs नहीं है"
+
+#: home_page.cpp:307 schedule_page.cpp:36
+msgid "Could not list Snapper configurations"
+msgstr "Snapper कॉन्फ़िगरेशन सूचीबद्ध नहीं किए जा सके"
+
+#: home_page.cpp:323 schedule_page.cpp:75
+msgid "No Snapper configurations found"
+msgstr "कोई Snapper कॉन्फ़िगरेशन नहीं मिला"
+
+#: home_page.cpp:324 snaps_page.cpp:119 schedule_page.cpp:76
+msgid "Create one with: sudo snapper -c root create-config /"
+msgstr "इस कमांड से बनाएँ: sudo snapper -c root create-config /"
+
+#: home_page.cpp:333 snaps_page.cpp:132 schedule_page.cpp:89
+#, c-format
+msgid "Profile: %s"
+msgstr "प्रोफ़ाइल: %s"
+
+#: home_page.cpp:340
+msgid "OK"
+msgstr "ठीक है"
+
+#: home_page.cpp:340
+msgid "Snapshots directory (.snapshots) not found"
+msgstr "स्नैपशॉट डायरेक्टरी (.snapshots) नहीं मिली"
+
+#: snaps_page.cpp:52
+#, c-format
+msgid "Snapshot #%s"
+msgstr "स्नैपशॉट #%s"
+
+#: snaps_page.cpp:78
+msgid "Could not list profiles"
+msgstr "प्रोफ़ाइल सूचीबद्ध नहीं की जा सकीं"
+
+#: snaps_page.cpp:118
+msgid "No profiles found"
+msgstr "कोई प्रोफ़ाइल नहीं मिली"
+
+#: snaps_page.cpp:150
+msgid "New snapshot"
+msgstr "नया स्नैपशॉट"
+
+#: snaps_page.cpp:172
+msgid "Could not list snapshots"
+msgstr "स्नैपशॉट सूचीबद्ध नहीं किए जा सके"
+
+#: snaps_page.cpp:217
+msgid "No snapshots yet"
+msgstr "अभी कोई स्नैपशॉट नहीं"
+
+#: snaps_page.cpp:239
+msgid "Current default snapshot"
+msgstr "वर्तमान डिफ़ॉल्ट स्नैपशॉट"
+
+#: snaps_page.cpp:252
+msgid "Browse Files"
+msgstr "फ़ाइलें ब्राउज़ करें"
+
+#: snaps_page.cpp:253
+msgid "Restore Snapshot"
+msgstr "स्नैपशॉट पुनर्स्थापित करें"
+
+#: snaps_page.cpp:255
+msgid "Delete Snapshot"
+msgstr "स्नैपशॉट हटाएँ"
+
+#: snaps_page.cpp:273
+#, c-format
+msgid "Creating a new snapshot for %s."
+msgstr "%s का नया स्नैपशॉट बनाया जा रहा है।"
+
+#: snaps_page.cpp:275
+msgid "New Snapshot"
+msgstr "नया स्नैपशॉट"
+
+#: snaps_page.cpp:279
+msgid "Description, e.g. \"Before update\""
+msgstr "विवरण, उदा. \"अपडेट से पहले\""
+
+#: snaps_page.cpp:284 snaps_page.cpp:327 snaps_page.cpp:358 snaps_page.cpp:443 schedule_dialog.cpp:309
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: snaps_page.cpp:285 schedule_dialog.cpp:310
+msgid "Create"
+msgstr "बनाएँ"
+
+#: snaps_page.cpp:313
+msgid "Snapshot created"
+msgstr "स्नैपशॉट बन गया"
+
+#: snaps_page.cpp:321
+#, c-format
+msgid "Restore %s?"
+msgstr "%s को पुनर्स्थापित करें?"
+
+#: snaps_page.cpp:323
+#, c-format
+msgid "This overwrites the current content of %s with the content of snapshot #%s. This cannot be undone."
+msgstr "यह %1$s की वर्तमान सामग्री को स्नैपशॉट #%2$s की सामग्री से बदल देगा। इसे वापस नहीं किया जा सकता।"
+
+#: snaps_page.cpp:328
+msgid "Restore"
+msgstr "पुनर्स्थापित करें"
+
+#: snaps_page.cpp:348
+#, c-format
+msgid "Snapshot #%s restored"
+msgstr "स्नैपशॉट #%s पुनर्स्थापित हो गया"
+
+#: snaps_page.cpp:354
+#, c-format
+msgid "Delete %s?"
+msgstr "%s को हटाएँ?"
+
+#: snaps_page.cpp:355
+#, c-format
+msgid "Snapshot #%s will be permanently deleted."
+msgstr "स्नैपशॉट #%s स्थायी रूप से हटा दिया जाएगा।"
+
+#: snaps_page.cpp:359
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: snaps_page.cpp:379
+#, c-format
+msgid "Snapshot #%s deleted"
+msgstr "स्नैपशॉट #%s हटा दिया गया"
+
+#: snaps_page.cpp:389
+msgid "Snapper command failed"
+msgstr "Snapper कमांड विफल रहा"
+
+#: snaps_page.cpp:410
+#, c-format
+msgid "Snapshot folder not found: %s"
+msgstr "स्नैपशॉट फ़ोल्डर नहीं मिला: %s"
+
+#: snaps_page.cpp:421
+msgid "Could not build a path for that snapshot"
+msgstr "उस स्नैपशॉट का पथ नहीं बनाया जा सका"
+
+#: snaps_page.cpp:430
+msgid "Could not open a file manager for that snapshot"
+msgstr "उस स्नैपशॉट के लिए फ़ाइल मैनेजर नहीं खोला जा सका"
+
+#: snaps_page.cpp:438
+#, c-format
+msgid "Snapshots of %s can only be read by root. Allow \"%s\" to browse them? This adds the user to ALLOW_USERS and enables SYNC_ACL in the Snapper configuration \"%s\"."
+msgstr "%1$s के स्नैपशॉट केवल root पढ़ सकता है। क्या \"%2$s\" को उन्हें ब्राउज़ करने दें? इससे उपयोगकर्ता ALLOW_USERS में जुड़ जाएगा और Snapper कॉन्फ़िगरेशन \"%3$s\" में SYNC_ACL चालू हो जाएगा।"
+
+#: snaps_page.cpp:442
+msgid "Allow Access to Snapshots?"
+msgstr "स्नैपशॉट तक पहुँच की अनुमति दें?"
+
+#: snaps_page.cpp:444
+msgid "Allow Access"
+msgstr "पहुँच की अनुमति दें"
+
+#: snaps_page.cpp:473
+msgid "Could not read the Snapper configuration"
+msgstr "Snapper कॉन्फ़िगरेशन नहीं पढ़ा जा सका"
+
+#: snaps_page.cpp:498
+msgid "Could not grant access"
+msgstr "पहुँच नहीं दी जा सकी"
+
+#: schedule_page.cpp:104
+msgid "New schedule"
+msgstr "नया शेड्यूल"
+
+#: schedule_page.cpp:125
+#, c-format
+msgid "Could not read schedule for %s: %s"
+msgstr "%s का शेड्यूल नहीं पढ़ा जा सका: %s"
+
+#: schedule_page.cpp:158
+msgid "No active schedule"
+msgstr "कोई सक्रिय शेड्यूल नहीं"
+
+#: schedule_page.cpp:190 schedule_page.cpp:231
+#, c-format
+msgid "Could not remove schedule: %s"
+msgstr "शेड्यूल हटाया नहीं जा सका: %s"
+
+#: schedule_page.cpp:193 schedule_page.cpp:234
+msgid "Schedule removed"
+msgstr "शेड्यूल हटा दिया गया"
+
+#: schedule_page.cpp:203 schedule_page.cpp:242
+msgid "Remove this schedule"
+msgstr "यह शेड्यूल हटाएँ"
+
+#: schedule_page.cpp:216 schedule_dialog.cpp:122
+msgid "Custom"
+msgstr "कस्टम"
+
+#: schedule_dialog.cpp:78
+msgid "Select at least one day of the week."
+msgstr "सप्ताह का कम से कम एक दिन चुनें।"
+
+#: schedule_dialog.cpp:100
+msgid "How often?"
+msgstr "कितनी बार?"
+
+#: schedule_dialog.cpp:101
+msgid "Choose when new snapshots are taken."
+msgstr "चुनें कि नए स्नैपशॉट कब बनाए जाएँ।"
+
+#: schedule_dialog.cpp:104
+msgid "A snapshot every hour"
+msgstr "हर घंटे एक स्नैपशॉट"
+
+#: schedule_dialog.cpp:105
+msgid "A snapshot every day"
+msgstr "हर दिन एक स्नैपशॉट"
+
+#: schedule_dialog.cpp:106
+msgid "A snapshot every week"
+msgstr "हर सप्ताह एक स्नैपशॉट"
+
+#: schedule_dialog.cpp:107
+msgid "A snapshot every month"
+msgstr "हर महीने एक स्नैपशॉट"
+
+#: schedule_dialog.cpp:108
+msgid "A snapshot every year"
+msgstr "हर साल एक स्नैपशॉट"
+
+#: schedule_dialog.cpp:109
+msgid "Pick the weekdays and the time of day"
+msgstr "सप्ताह के दिन और समय चुनें"
+
+#: schedule_dialog.cpp:158
+msgid "Retention"
+msgstr "प्रतिधारण"
+
+#: schedule_dialog.cpp:160
+msgid "Requires Snapper's timeline timer (snapper-timeline.timer) to be enabled to actually run."
+msgstr "चलने के लिए Snapper का टाइमलाइन टाइमर (snapper-timeline.timer) सक्षम होना चाहिए।"
+
+#: schedule_dialog.cpp:163
+msgid "Snapshots to keep"
+msgstr "रखे जाने वाले स्नैपशॉट"
+
+#: schedule_dialog.cpp:177
+msgid "Days"
+msgstr "दिन"
+
+#: schedule_dialog.cpp:200
+msgid "Time"
+msgstr "समय"
+
+#: schedule_dialog.cpp:203
+msgid "Time of day"
+msgstr "दिन का समय"
+
+#: schedule_dialog.cpp:246
+msgid "Summary"
+msgstr "सारांश"
+
+#: schedule_dialog.cpp:256
+msgid "Schedule created"
+msgstr "शेड्यूल बन गया"
+
+#: schedule_dialog.cpp:259
+msgid "Could not create schedule"
+msgstr "शेड्यूल नहीं बनाया जा सका"
+
+#: schedule_dialog.cpp:326
+#, c-format
+msgid "New schedule for %s"
+msgstr "%s के लिए नया शेड्यूल"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Mon"
+msgstr "सोम"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Tue"
+msgstr "मंगल"
+
+#: systemd_timer.cpp:17
+msgctxt "weekday abbreviation"
+msgid "Wed"
+msgstr "बुध"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Thu"
+msgstr "गुरु"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Fri"
+msgstr "शुक्र"
+
+#: systemd_timer.cpp:18
+msgctxt "weekday abbreviation"
+msgid "Sat"
+msgstr "शनि"
+
+#: systemd_timer.cpp:19
+msgctxt "weekday abbreviation"
+msgid "Sun"
+msgstr "रवि"
+
+#: systemd_timer.cpp:20
+msgid "Monday"
+msgstr "सोमवार"
+
+#: systemd_timer.cpp:20
+msgid "Tuesday"
+msgstr "मंगलवार"
+
+#: systemd_timer.cpp:20
+msgid "Wednesday"
+msgstr "बुधवार"
+
+#: systemd_timer.cpp:20
+msgid "Thursday"
+msgstr "गुरुवार"
+
+#: systemd_timer.cpp:21
+msgid "Friday"
+msgstr "शुक्रवार"
+
+#: systemd_timer.cpp:21
+msgid "Saturday"
+msgstr "शनिवार"
+
+#: systemd_timer.cpp:21
+msgid "Sunday"
+msgstr "रविवार"
+
+#: systemd_timer.cpp:49
+msgctxt "time format"
+msgid "%-I:%M %p"
+msgstr "%H:%M"
+
+#: systemd_timer.cpp:59
+msgid " and "
+msgstr " और "
+
+#: systemd_timer.cpp:85
+msgid "every day"
+msgstr "हर दिन"
+
+#: systemd_timer.cpp:86
+#, c-format
+msgid "every %s"
+msgstr "इन दिनों: %s"
+
+#: systemd_timer.cpp:87
+#, c-format
+msgid "Snapshots of %s will be created %s at %s."
+msgstr "%1$s के स्नैपशॉट %2$s %3$s बजे बनाए जाएँगे।"
+
+#: systemd_timer.cpp:98
+msgid "Select at least one day of the week"
+msgstr "सप्ताह का कम से कम एक दिन चुनें"
+
+#: systemd_timer.cpp:107
+msgid "Could not create ~/.config/systemd/user"
+msgstr "~/.config/systemd/user नहीं बनाया जा सका"
+
+#: systemd_timer.cpp:146
+msgid "Could not write systemd unit files"
+msgstr "systemd यूनिट फ़ाइलें नहीं लिखी जा सकीं"
+
+#: systemd_timer.cpp:209 systemd_timer.cpp:214
+msgid "Custom schedule"
+msgstr "कस्टम शेड्यूल"
+
+#: snapper_cli.cpp:26
+msgid "Could not run snapper"
+msgstr "snapper नहीं चलाया जा सका"
+
+#: snapper_cli.cpp:27
+msgid "snapper exited with an error"
+msgstr "snapper त्रुटि के साथ समाप्त हुआ"
+
+#: snapper_cli.cpp:119
+msgid "Could not run command"
+msgstr "कमांड नहीं चलाया जा सका"
+
+#: root_helper.cpp:60
+msgid "Lost connection to the privileged helper process"
+msgstr "विशेषाधिकार प्राप्त सहायक प्रक्रिया से कनेक्शन टूट गया"
+
+#: root_helper.cpp:118
+msgid "Could not find the snapper-manager-helper program next to the main executable."
+msgstr "मुख्य एक्ज़ीक्यूटेबल के पास snapper-manager-helper प्रोग्राम नहीं मिला।"
+
+#: root_helper.cpp:130
+msgid "Could not run pkexec."
+msgstr "pkexec नहीं चलाया जा सका।"
+
+#: root_helper.cpp:147
+msgid "Administrator authentication was not completed"
+msgstr "व्यवस्थापक प्रमाणीकरण पूरा नहीं हुआ"
+
+#: root_helper.cpp:168
+msgid "The privileged helper is not running."
+msgstr "विशेषाधिकार प्राप्त सहायक प्रक्रिया नहीं चल रही है।"
+
+#: timeline_periods.hpp:21
+msgid "Hourly"
+msgstr "हर घंटे"
+
+#: timeline_periods.hpp:22
+msgid "Daily"
+msgstr "दैनिक"
+
+#: timeline_periods.hpp:23
+msgid "Weekly"
+msgstr "साप्ताहिक"
+
+#: timeline_periods.hpp:24
+msgid "Monthly"
+msgstr "मासिक"
+
+#: timeline_periods.hpp:25
+msgid "Yearly"
+msgstr "वार्षिक"
+
+#: timeline_periods.hpp:33
+#, c-format
+msgid "Keeps the %d most recent hourly snapshot."
+msgid_plural "Keeps the %d most recent hourly snapshots."
+msgstr[0] "सबसे हालिया %d प्रति-घंटा स्नैपशॉट रखता है।"
+msgstr[1] "सबसे हालिया %d प्रति-घंटा स्नैपशॉट रखता है।"
+
+#: timeline_periods.hpp:36
+#, c-format
+msgid "Keeps the %d most recent daily snapshot."
+msgid_plural "Keeps the %d most recent daily snapshots."
+msgstr[0] "सबसे हालिया %d दैनिक स्नैपशॉट रखता है।"
+msgstr[1] "सबसे हालिया %d दैनिक स्नैपशॉट रखता है।"
+
+#: timeline_periods.hpp:39
+#, c-format
+msgid "Keeps the %d most recent weekly snapshot."
+msgid_plural "Keeps the %d most recent weekly snapshots."
+msgstr[0] "सबसे हालिया %d साप्ताहिक स्नैपशॉट रखता है।"
+msgstr[1] "सबसे हालिया %d साप्ताहिक स्नैपशॉट रखता है।"
+
+#: timeline_periods.hpp:42
+#, c-format
+msgid "Keeps the %d most recent monthly snapshot."
+msgid_plural "Keeps the %d most recent monthly snapshots."
+msgstr[0] "सबसे हालिया %d मासिक स्नैपशॉट रखता है।"
+msgstr[1] "सबसे हालिया %d मासिक स्नैपशॉट रखता है।"
+
+#: timeline_periods.hpp:44
+#, c-format
+msgid "Keeps the %d most recent yearly snapshot."
+msgid_plural "Keeps the %d most recent yearly snapshots."
+msgstr[0] "सबसे हालिया %d वार्षिक स्नैपशॉट रखता है।"
+msgstr[1] "सबसे हालिया %d वार्षिक स्नैपशॉट रखता है।"
+
+#: data/org.gnome.scatto.desktop.in:3
+msgid "Scatto"
+msgstr ""
+
+#: data/org.gnome.scatto.desktop.in:4
+msgid "Snapper Manager"
+msgstr ""
+
+#: data/org.gnome.scatto.desktop.in:10
+msgid "snapper;btrfs;snapshot;backup;"
+msgstr "snapper;btrfs;स्नैपशॉट;snapshot;बैकअप;"
